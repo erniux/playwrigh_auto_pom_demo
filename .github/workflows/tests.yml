@@ -28,6 +28,13 @@ jobs:
       run: |
         python -m playwright install --with-deps
 
-    - name: Run pytest
+    - name: Run tests with pytest and Allure
       run: |
-        pytest -v --maxfail=1 --disable-warnings
+        pytest -v --maxfail=1 --disable-warnings --alluredir=allure-results
+
+    - name: Upload Playwright report
+      uses: actions/upload-artifact@v3
+      with:
+        name: playwright-report
+        path: playwright-report/
+
