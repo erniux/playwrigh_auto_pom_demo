@@ -4,6 +4,8 @@ import re
 import os
 from utils.pom_generator import generate_pom_from_html, camel_to_snake
 
+headless = True if os.getenv("CI") else False
+
 PAGES_DIR = os.path.join("tests", "pages")
 os.makedirs(PAGES_DIR, exist_ok=True)
 
@@ -17,7 +19,7 @@ def playwright_instance():
 @pytest.fixture(scope="session")
 def browser(playwright_instance):
     browser = playwright_instance.chromium.launch(
-        headless=False,
+        headless=headless,
         slow_mo=200
     )
     yield browser

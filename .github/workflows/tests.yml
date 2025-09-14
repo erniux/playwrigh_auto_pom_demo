@@ -30,4 +30,4 @@ jobs:
 
     - name: Run pytest
       run: |
-        pytest -v --maxfail=1 --disable-warnings --headless
+        pytest -v --maxfail=1 --disable-warnings
