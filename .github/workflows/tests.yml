@@ -43,6 +43,12 @@ jobs:
       run: |
         allure generate allure-results -o allure-report --clean
 
+    - name: Check Allure report exists
+      run: |
+        ls -R
+        ls -R allure-results || echo "No allure-results directory"
+        ls -R allure-report || echo "No allure-report directory"
+
     - name: Deploy Allure report to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
