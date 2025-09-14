@@ -1,9 +1,7 @@
 # Playwright Auto-POM Demo
 
+[![CI](https://github.com/erniux/playwright_auto_pom_demo/actions/workflows/tests.yml/badge.svg)](https://github.com/erniux/playwright_auto_pom_demo/actions/workflows/tests.yml)
 [![Allure Report](https://img.shields.io/badge/Allure-Report-ff69b4?logo=allure&style=flat)](https://erniux.github.io/playwright_auto_pom_demo/)
-
-
-
 
 
 Framework de pruebas automatizadas con **Pytest + Playwright + BDD** que incluye un **auto-POM generator**:  
