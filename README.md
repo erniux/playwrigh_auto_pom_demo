@@ -1,10 +1,17 @@
 # Playwright Auto-POM Demo
 
+[![Allure Report](https://img.shields.io/badge/Allure-Report-ff69b4?logo=allure&style=flat)](https://erniux.github.io/playwrigh_auto_pom_demo/)
+
+
+
+
 Framework de pruebas automatizadas con **Pytest + Playwright + BDD** que incluye un **auto-POM generator**:  
 cada vez que se navega a una nueva página, el framework lee el DOM, detecta elementos y crea/actualiza automáticamente el **Page Object Model (POM)**.  
 👉 ¡Nunca más escribir locators manualmente!
 
 ---
+
+
 
 ## 🚀 Características principales
 - **BDD con Pytest-BDD** → escenarios claros en archivos `.feature`.
