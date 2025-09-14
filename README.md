@@ -1,6 +1,7 @@
 # Playwright Auto-POM Demo
 
-[![Allure Report](https://img.shields.io/badge/Allure-Report-ff69b4?logo=allure&style=flat)](https://erniux.github.io/playwrigh_auto_pom_demo/)
+[![Allure Report](https://img.shields.io/badge/Allure-Report-ff69b4?logo=allure&style=flat)](https://erniux.github.io/playwright_auto_pom_demo/)
+
 
 
 
